@@ -1,5 +1,5 @@
 # Open the file in read mode
-with open('AdventDay1Puzzle.txt', 'r') as file:
+with open('./AdventDay1Puzzle.txt', 'r') as file:
     # Create an empty list to store the lines
     lines = []
 
@@ -16,7 +16,8 @@ import re
 final = []
 
 for l in lines:
-    all_numbers = re.findall(r'\d', l)
+    replaced_string = l.replace('one', 'o1e').replace('two', 't2o').replace('three', 't3e').replace('four', 'f4r').replace('five', 'f5e').replace('six', 's6x').replace('seven', 's7n').replace('eight', 'e8t').replace('nine', 'n9e')
+    all_numbers = re.findall(r'\d', replaced_string)
     first_number = all_numbers[0]
     last_number = all_numbers[-1]
     number = first_number + last_number
