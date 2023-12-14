@@ -1,7 +1,7 @@
 # Open the file in read mode
 import re
 
-with open('c:/Users/JFA3763/Documents/AdventDay2.txt', 'r') as file:
+with open('./AdventDay2.txt', 'r') as file:
     # Create an empty list to store the lines
     lines = []
 
