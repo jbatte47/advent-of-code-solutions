@@ -41,13 +41,7 @@ for game in games_list:
     print(game)
     possible = []
     for a, b in zip(*[iter(game)] * 2):
-        if a == 'red' and b > red_cap:
-            possible.append(False)
-        elif a == 'green' and b > green_cap:
-            possible.append(False)
-        elif a == 'blue' and b > blue_cap:
-            possible.append(False)
-        elif a == 'red' and b > red_max:
+        if a == 'red' and b > red_max:
             red_max = b
             continue
         elif a == 'green' and b > green_max:
@@ -61,10 +55,9 @@ for game in games_list:
             continue
         else:
             continue
-    if False not in possible:
-        cube_dict.update({"Game":game_number,"red": red_max,"green": green_max,"blue":blue_max})
-        game_dicts.append(cube_dict)
+    cube_dict.update({"Game":game_number,"red": red_max,"green": green_max,"blue":blue_max,"res": red_max*blue_max*green_max})
+    game_dicts.append(cube_dict)
 print(game_dicts)
 import operator
-res = sum(map(operator.itemgetter('Game'), game_dicts))
+res = sum(map(operator.itemgetter('res'), game_dicts))
 print(res)
