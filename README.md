@@ -28,3 +28,6 @@ pip install -r requirements.txt
 ```sh
 python advent.py
 ```
+
+### Notes
+Detailed notes can be found in `adventofcode/` (which is an [Obsidian](obsidian.md) vault).
