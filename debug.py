@@ -1,6 +1,7 @@
 # %%
-from day2 import day2_2
+from day3 import day3_2
 
-print(f"Day 2, Part 2: {day2_2()}")
+result = day3_2()
+print(f"Day 3, Part 2: {result}")
 
 # %%
