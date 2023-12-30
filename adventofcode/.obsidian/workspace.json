@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a3577be06244cdd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day 3/Day 4 Solution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "38aac5974c66fe55",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day 3/Day 3 Solution.md",
+                "file": "Day 3/Day 4 Solution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day 3/Day 3 Solution.md",
+                "file": "Day 3/Day 4 Solution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day 3/Day 3 Solution.md"
+                "file": "Day 3/Day 4 Solution.md"
               }
             }
           }
@@ -146,10 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c4a9769634c15fe",
+  "active": "d465b6a8e3d70f17",
   "lastOpenFiles": [
-    "Day 3/Day 3 Breakdown.svg",
     "Day 3/Day 3 Solution.md",
+    "Day 3/Day 4 Solution.md",
+    "Day 3/Day 3 Breakdown.svg",
     "Day 3"
   ]
 }
